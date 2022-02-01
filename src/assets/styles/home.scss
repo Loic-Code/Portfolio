@@ -1,0 +1,29 @@
+.contain {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.contain section {
+    scroll-snap-align: start;
+}
+
+.first-part {
+    background: #ff0000;
+    height: 100vh;
+}
+
+.second-part {
+    background: #0084ff;
+    height: 100vh;
+}
+
+.third-part {
+    background: #3cff00;
+    height: 100vh;
+}
+
+.four-part {
+    background: #ffe600;
+    height: 100vh;
+}
